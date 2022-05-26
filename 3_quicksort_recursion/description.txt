@@ -1,0 +1,5 @@
+Quicksort is a sorting algorithm. It’s much faster than selection sort
+and is frequently used in real life.
+Quicksort is unique because its speed depends on the pivot you choose.
+Quicksort time complexity is O(n*log(n)) for average case. In the
+worst case, quicksort takes O(n^2) time.

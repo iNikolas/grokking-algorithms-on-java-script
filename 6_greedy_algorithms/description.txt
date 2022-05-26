@@ -1,0 +1,18 @@
+A greedy algorithm is simple: at each step, pick the optimal move.
+In technical terms: at each step you pick the locally optimal
+solution, and in the end you’re left with the globally optimal solution.
+Obviously, greedy algorithms don’t always work. But they’re simple to
+write!
+Sometimes all you need is an algorithm that solves the problem pretty
+well. And that’s where greedy algorithms shine, because they’re simple
+to write and usually get pretty close.
+
+This is called an approximation algorithm. When calculating the exact
+solution will take too much time, an approximation algorithm will
+work. Approximation algorithms are judged by
+• How fast they are
+• How close they are to the optimal solution
+Greedy algorithms are a good choice because not only are they simple
+to come up with, but that simplicity means they usually run fast, too.
+In this case, the greedy algorithm runs in O(n^2) time, where n is the
+number of radio stations.

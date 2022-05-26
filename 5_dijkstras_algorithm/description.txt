@@ -1,0 +1,8 @@
+When you work with Dijkstra’s algorithm, each edge in the graph has a
+number associated with it. These are called weights. To calculate the
+shortest path in a weighted graph, use Dijkstra’s algorithm.
+Dijkstra’s algorithm only works with directed acyclic graphs,
+called DAGs for short. So you can’t use negative-weight edges with
+Dijkstra’s algorithm. If you want to find the shortest path in a graph
+that has negative-weight edges, there’s an algorithm for that! It’s
+called the Bellman-Ford algorithm.

@@ -1,0 +1,7 @@
+Breadth first search is a different kind of search algorithm: one that runs on
+graphs. It can help answer two types of questions:
+• Question type 1: Is there a path from node A to node B?
+• Question type 2: What is the shortest path from node A to node B?
+The way breadth-first search works, the search radiates out from the starting
+point. So you’ll check first-degree connections before second-degree
+connections.
